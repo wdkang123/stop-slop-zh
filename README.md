@@ -64,6 +64,8 @@ Inspired by [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop).
 请按照 stop-slop-zh 的规则，清洗下面这段中文文本的 AI 味。只改表达，不改变事实。
 ```
 
+更多接入方式和可复制 prompt 见 [docs/USAGE.zh.md](docs/USAGE.zh.md)。英文使用指南见 [docs/USAGE.en.md](docs/USAGE.en.md)。
+
 ## Example
 
 Before:
@@ -107,6 +109,9 @@ After:
 
 ```text
 stop-slop-zh/
+  .github/
+    ISSUE_TEMPLATE/
+    PULL_REQUEST_TEMPLATE.md
   README.md
   README.en.md
   LICENSE
@@ -114,6 +119,9 @@ stop-slop-zh/
   CHANGELOG.md
   CONTRIBUTING.md
   ROADMAP.md
+  docs/
+    USAGE.zh.md
+    USAGE.en.md
   references/
     phrases.zh.md
     structures.zh.md
@@ -131,7 +139,17 @@ stop-slop-zh/
     personal.after.md
 ```
 
+## Contributing
+
+欢迎贡献短语、结构、示例和场景规则。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，并优先使用 GitHub issue 模板提交：
+
+- 新增中文 AI 味短语
+- 新增 before/after 示例
+- 新增场景规则
+- 规则误伤反馈
+
+贡献时请说明问题、改法和例外场景。不要只提交一个“禁用词”。
+
 ## License
 
 MIT.
-

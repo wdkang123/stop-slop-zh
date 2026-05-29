@@ -62,6 +62,8 @@ Option 4: Use a one-off prompt:
 Please clean the AI-like Chinese prose in the following text according to stop-slop-zh. Only change expression; do not change facts.
 ```
 
+For detailed setup instructions and copyable prompts, see [docs/USAGE.en.md](docs/USAGE.en.md). The Chinese guide is [docs/USAGE.zh.md](docs/USAGE.zh.md).
+
 ## Example
 
 Before:
@@ -101,7 +103,46 @@ See [references/scoring.zh.md](references/scoring.zh.md) for the full rubric.
 - Not a shortening tool
 - Not a tool that forces every text into one style
 
+## Project Structure
+
+```text
+stop-slop-zh/
+  .github/
+    ISSUE_TEMPLATE/
+    PULL_REQUEST_TEMPLATE.md
+  README.md
+  README.en.md
+  LICENSE
+  SKILL.md
+  CHANGELOG.md
+  CONTRIBUTING.md
+  ROADMAP.md
+  docs/
+    USAGE.zh.md
+    USAGE.en.md
+  references/
+    phrases.zh.md
+    structures.zh.md
+    examples.zh.md
+    scoring.zh.md
+    domain-guides.zh.md
+  samples/
+    blog.before.md
+    blog.after.md
+    tech.before.md
+    tech.after.md
+    report.before.md
+    report.after.md
+    personal.before.md
+    personal.after.md
+```
+
+## Contributing
+
+Contributions are welcome: phrases, structural patterns, before/after examples, domain guides, and false-positive reports.
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) first. A good contribution explains the problem, gives a better rewrite, and notes where the phrase or structure may still be valid.
+
 ## License
 
 MIT.
-

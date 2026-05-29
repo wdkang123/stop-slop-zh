@@ -1,0 +1,32 @@
+name: 规则误伤反馈
+description: 反馈某条规则把合理中文表达误判成 AI 味。
+title: "[False Positive] "
+labels: ["false-positive", "rules"]
+body:
+  - type: textarea
+    id: text
+    attributes:
+      label: 被误伤的文本
+      description: 贴出原句或段落。
+    validations:
+      required: true
+  - type: textarea
+    id: rule
+    attributes:
+      label: 相关规则
+      description: 指出是哪条短语、结构或场景规则导致误伤。
+      placeholder: references/phrases.zh.md 里的“总的来说”
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 为什么这里应该保留
+      description: 说明文本场景、读者和正式程度。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议怎么改规则
+      description: 可以建议增加例外、调整措辞或补充说明。

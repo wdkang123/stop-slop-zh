@@ -1,0 +1,50 @@
+name: 新增 before/after 示例
+description: 提交一组中文 AI 味清洗前后对照。
+title: "[Example] "
+labels: ["example"]
+body:
+  - type: dropdown
+    id: domain
+    attributes:
+      label: 场景
+      options:
+        - 技术博客
+        - 产品分析
+        - 项目汇报
+        - 个人随笔
+        - 商业文案
+        - 社交媒体
+        - 学术/正式文本
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: Before
+      description: 原文。请保留足够上下文。
+    validations:
+      required: true
+  - type: textarea
+    id: problems
+    attributes:
+      label: 主要问题
+      description: 说明原文里的 AI 味来自短语、结构、节奏、抽象、升华还是缺少事实。
+      placeholder: "- 开场铺垫\n- 商务黑话\n- 没有具体动作"
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: After
+      description: 改写版本。不要改变事实，不要添加未经提供的新信息。
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么更好
+      description: 简短解释改写后的具体改进。
+      placeholder: "- 直接进入问题\n- 保留事实\n- 给出边界"
+    validations:
+      required: true

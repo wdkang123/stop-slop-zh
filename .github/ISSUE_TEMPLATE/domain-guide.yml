@@ -1,0 +1,33 @@
+name: 新增场景规则
+description: 提议一个具体中文写作场景的清洗策略。
+title: "[Domain] "
+labels: ["domain-guide"]
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: 场景名称
+      placeholder: 例如：小红书文案、融资 BP、年终总结、学术摘要
+    validations:
+      required: true
+  - type: textarea
+    id: keep
+    attributes:
+      label: 应该保留什么
+      description: 这个场景里哪些信息、语气或结构应该优先保留？
+      placeholder: "- 具体用户\n- 真实价格\n- 使用限制"
+    validations:
+      required: true
+  - type: textarea
+    id: remove
+    attributes:
+      label: 应该删除或谨慎使用什么
+      description: 这个场景里常见的模板表达、空话或误伤风险是什么？
+      placeholder: "- 重新定义\n- 长期价值\n- 颠覆式创新"
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 示例
+      description: 最好提供一组 before/after。

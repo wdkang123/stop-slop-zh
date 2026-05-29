@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 先读贡献指南
+    url: https://github.com/wuzikang/stop-slop-zh/blob/main/CONTRIBUTING.md
+    about: 提交短语、示例或场景规则前，请先确认项目边界。

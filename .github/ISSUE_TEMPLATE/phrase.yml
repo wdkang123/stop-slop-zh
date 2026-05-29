@@ -1,0 +1,39 @@
+name: 新增中文 AI 味短语
+description: 提议一个需要收录、解释或谨慎使用的中文表达。
+title: "[Phrase] "
+labels: ["phrase", "rules"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢贡献。请尽量说明这个表达在什么语境下像 AI，而不是只提交“禁用词”。
+  - type: input
+    id: phrase
+    attributes:
+      label: 短语或表达
+      description: 写出你想补充的中文表达。
+      placeholder: 例如：形成闭环
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题是什么
+      description: 它为什么会让文本显得模板化、空泛或假深刻？
+      placeholder: 它经常替代具体动作，但没有说明谁做、做到哪一步、如何验收。
+    validations:
+      required: true
+  - type: textarea
+    id: rewrite
+    attributes:
+      label: 可以怎么改
+      description: 给出 1-2 个更具体的替代表达。
+      placeholder: 把“形成闭环”改成“本周把表单、通知、人工复核三个步骤接到同一个工单里”。
+    validations:
+      required: true
+  - type: textarea
+    id: exception
+    attributes:
+      label: 例外场景
+      description: 这个表达在什么正式或专业场景下可以保留？
+      placeholder: 如果团队内部把“闭环”定义为有输入、处理、验收、反馈四个节点，可以保留，但最好补充节点。
