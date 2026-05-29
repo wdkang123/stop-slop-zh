@@ -64,6 +64,15 @@ Please clean the AI-like Chinese prose in the following text according to stop-s
 
 For detailed setup instructions and copyable prompts, see [docs/USAGE.en.md](docs/USAGE.en.md). The Chinese guide is [docs/USAGE.zh.md](docs/USAGE.zh.md).
 
+## Specialized Guides
+
+v0.2.0 starts adding focused domain guides. Available now:
+
+- [Technical blog guide](references/tech-blog.zh.md)
+- [Technical blog before/after examples](references/examples-tech.zh.md)
+- [Project report guide](references/report.zh.md)
+- [Project report before/after examples](references/examples-report.zh.md)
+
 ## Example
 
 Before:
@@ -126,6 +135,10 @@ stop-slop-zh/
     examples.zh.md
     scoring.zh.md
     domain-guides.zh.md
+    tech-blog.zh.md
+    examples-tech.zh.md
+    report.zh.md
+    examples-report.zh.md
   samples/
     blog.before.md
     blog.after.md

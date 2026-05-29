@@ -114,4 +114,10 @@ description: Remove AI-generated patterns from Chinese prose. Use when writing, 
 - references/examples.zh.md
 - references/scoring.zh.md
 - references/domain-guides.zh.md
+- references/tech-blog.zh.md
+- references/examples-tech.zh.md
+- references/report.zh.md
+- references/examples-report.zh.md
 
+如果文本是技术博客，优先读取 `references/tech-blog.zh.md` 和 `references/examples-tech.zh.md`。
+如果文本是项目汇报，优先读取 `references/report.zh.md` 和 `references/examples-report.zh.md`。

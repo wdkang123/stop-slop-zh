@@ -29,6 +29,12 @@ For longer text, include the domain:
 This is a Chinese technical blog post. Please use stop-slop-zh to remove AI-like prose while preserving terminology, code logic, limitations, and real debugging details.
 ```
 
+For technical posts, you can explicitly ask the model to load:
+
+```text
+Please prioritize references/tech-blog.zh.md and references/examples-tech.zh.md.
+```
+
 ## Claude Project Knowledge
 
 Upload these files to Project Knowledge:
@@ -39,6 +45,10 @@ Upload these files to Project Knowledge:
 - `references/examples.zh.md`
 - `references/scoring.zh.md`
 - `references/domain-guides.zh.md`
+- `references/tech-blog.zh.md`
+- `references/examples-tech.zh.md`
+- `references/report.zh.md`
+- `references/examples-report.zh.md`
 
 Project instructions:
 
@@ -69,6 +79,12 @@ More specific:
 
 ```text
 Please use stop-slop-zh to clean this Chinese project report. Preserve completed items, unfinished items, risks, owners, dates, and next steps. Remove phrases like “持续优化”, “形成闭环”, and “有序推进” when they add no concrete information.
+```
+
+For project reports, you can explicitly ask the model to load:
+
+```text
+Please prioritize references/report.zh.md and references/examples-report.zh.md.
 ```
 
 ## Gemini CLI / Other Agents

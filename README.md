@@ -66,6 +66,15 @@ Inspired by [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop).
 
 更多接入方式和可复制 prompt 见 [docs/USAGE.zh.md](docs/USAGE.zh.md)。英文使用指南见 [docs/USAGE.en.md](docs/USAGE.en.md)。
 
+## Specialized Guides
+
+v0.2.0 开始增加专项规则。当前已有：
+
+- [技术博客专项规则](references/tech-blog.zh.md)
+- [技术博客 before/after](references/examples-tech.zh.md)
+- [项目汇报专项规则](references/report.zh.md)
+- [项目汇报 before/after](references/examples-report.zh.md)
+
 ## Example
 
 Before:
@@ -128,6 +137,10 @@ stop-slop-zh/
     examples.zh.md
     scoring.zh.md
     domain-guides.zh.md
+    tech-blog.zh.md
+    examples-tech.zh.md
+    report.zh.md
+    examples-report.zh.md
   samples/
     blog.before.md
     blog.after.md

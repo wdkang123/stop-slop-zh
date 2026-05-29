@@ -29,6 +29,12 @@ stop-slop-zh/
 这是一篇技术博客。请使用 stop-slop-zh 清洗 AI 味，优先保留术语、代码逻辑、限制条件和真实踩坑。
 ```
 
+技术博客可以额外要求读取：
+
+```text
+请优先参考 references/tech-blog.zh.md 和 references/examples-tech.zh.md。
+```
+
 ## Claude Project Knowledge
 
 把这些文件上传到 Project Knowledge：
@@ -39,6 +45,10 @@ stop-slop-zh/
 - `references/examples.zh.md`
 - `references/scoring.zh.md`
 - `references/domain-guides.zh.md`
+- `references/tech-blog.zh.md`
+- `references/examples-tech.zh.md`
+- `references/report.zh.md`
+- `references/examples-report.zh.md`
 
 Project instructions 可以写：
 
@@ -69,6 +79,12 @@ Project instructions 可以写：
 
 ```text
 请使用 stop-slop-zh 清洗这篇项目汇报。保留已完成、未完成、风险、负责人、时间点和下一步；删除“持续优化”“形成闭环”“有序推进”等没有信息增量的表达。
+```
+
+项目汇报可以额外要求读取：
+
+```text
+请优先参考 references/report.zh.md 和 references/examples-report.zh.md。
 ```
 
 ## Gemini CLI / 其他 Agent
