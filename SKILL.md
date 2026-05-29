@@ -118,6 +118,12 @@ description: Remove AI-generated patterns from Chinese prose. Use when writing, 
 - references/examples-tech.zh.md
 - references/report.zh.md
 - references/examples-report.zh.md
+- references/personal-essay.zh.md
+- references/examples-personal.zh.md
+- references/product-analysis.zh.md
+- references/examples-product.zh.md
 
 如果文本是技术博客，优先读取 `references/tech-blog.zh.md` 和 `references/examples-tech.zh.md`。
 如果文本是项目汇报，优先读取 `references/report.zh.md` 和 `references/examples-report.zh.md`。
+如果文本是个人博客或随笔，优先读取 `references/personal-essay.zh.md` 和 `references/examples-personal.zh.md`。
+如果文本是产品分析，优先读取 `references/product-analysis.zh.md` 和 `references/examples-product.zh.md`。

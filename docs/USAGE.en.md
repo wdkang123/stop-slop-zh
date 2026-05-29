@@ -49,6 +49,10 @@ Upload these files to Project Knowledge:
 - `references/examples-tech.zh.md`
 - `references/report.zh.md`
 - `references/examples-report.zh.md`
+- `references/personal-essay.zh.md`
+- `references/examples-personal.zh.md`
+- `references/product-analysis.zh.md`
+- `references/examples-product.zh.md`
 
 Project instructions:
 
@@ -85,6 +89,18 @@ For project reports, you can explicitly ask the model to load:
 
 ```text
 Please prioritize references/report.zh.md and references/examples-report.zh.md.
+```
+
+For personal essays, you can explicitly ask the model to load:
+
+```text
+Please prioritize references/personal-essay.zh.md and references/examples-personal.zh.md.
+```
+
+For product analysis, you can explicitly ask the model to load:
+
+```text
+Please prioritize references/product-analysis.zh.md and references/examples-product.zh.md.
 ```
 
 ## Gemini CLI / Other Agents

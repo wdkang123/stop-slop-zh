@@ -74,6 +74,10 @@ v0.2.0 开始增加专项规则。当前已有：
 - [技术博客 before/after](references/examples-tech.zh.md)
 - [项目汇报专项规则](references/report.zh.md)
 - [项目汇报 before/after](references/examples-report.zh.md)
+- [个人博客/随笔专项规则](references/personal-essay.zh.md)
+- [个人博客/随笔 before/after](references/examples-personal.zh.md)
+- [产品分析专项规则](references/product-analysis.zh.md)
+- [产品分析 before/after](references/examples-product.zh.md)
 
 ## Example
 
@@ -141,6 +145,10 @@ stop-slop-zh/
     examples-tech.zh.md
     report.zh.md
     examples-report.zh.md
+    personal-essay.zh.md
+    examples-personal.zh.md
+    product-analysis.zh.md
+    examples-product.zh.md
   samples/
     blog.before.md
     blog.after.md

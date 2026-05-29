@@ -49,6 +49,10 @@ stop-slop-zh/
 - `references/examples-tech.zh.md`
 - `references/report.zh.md`
 - `references/examples-report.zh.md`
+- `references/personal-essay.zh.md`
+- `references/examples-personal.zh.md`
+- `references/product-analysis.zh.md`
+- `references/examples-product.zh.md`
 
 Project instructions 可以写：
 
@@ -85,6 +89,18 @@ Project instructions 可以写：
 
 ```text
 请优先参考 references/report.zh.md 和 references/examples-report.zh.md。
+```
+
+个人博客/随笔可以额外要求读取：
+
+```text
+请优先参考 references/personal-essay.zh.md 和 references/examples-personal.zh.md。
+```
+
+产品分析可以额外要求读取：
+
+```text
+请优先参考 references/product-analysis.zh.md 和 references/examples-product.zh.md。
 ```
 
 ## Gemini CLI / 其他 Agent

@@ -72,6 +72,10 @@ v0.2.0 starts adding focused domain guides. Available now:
 - [Technical blog before/after examples](references/examples-tech.zh.md)
 - [Project report guide](references/report.zh.md)
 - [Project report before/after examples](references/examples-report.zh.md)
+- [Personal essay guide](references/personal-essay.zh.md)
+- [Personal essay before/after examples](references/examples-personal.zh.md)
+- [Product analysis guide](references/product-analysis.zh.md)
+- [Product analysis before/after examples](references/examples-product.zh.md)
 
 ## Example
 
@@ -139,6 +143,10 @@ stop-slop-zh/
     examples-tech.zh.md
     report.zh.md
     examples-report.zh.md
+    personal-essay.zh.md
+    examples-personal.zh.md
+    product-analysis.zh.md
+    examples-product.zh.md
   samples/
     blog.before.md
     blog.after.md

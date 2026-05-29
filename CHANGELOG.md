@@ -4,7 +4,9 @@
 
 - Added technical blog specialty guide
 - Added project report specialty guide
-- Added 20 focused before/after examples toward v0.2.0
+- Added personal essay specialty guide
+- Added product analysis specialty guide
+- Added 40 focused before/after examples toward v0.2.0
 - Linked specialty references from README and SKILL.md
 
 ## v0.1.0
